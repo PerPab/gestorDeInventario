@@ -45,7 +45,7 @@ function inventario (nombreDB){
             }
             menu = prompt("Bienvenidos al sistema de gestion de inventario v0.1\n\nSeleccionar una opcion:\n\n1-Ingresar nuevo producto\n2-Consultar Stock disponible\n3-Consultar ubicacion\n4-Dar de baja un producto\n5-Salir")
         //ELIMINAR UN PRODUCTO
-        
+
         }else if( menu==4){
             let codigo = prompt("Eliminar Producto por CODIGO o NOMBRE")
             try{
@@ -67,6 +67,7 @@ function inventario (nombreDB){
             menu = prompt("Bienvenidos al sistema de gestion de inventario v0.1\n\nSeleccionar una opcion:\n\n1-Ingresar nuevo producto\n2-Consultar Stock disponible\n3-Consultar ubicacion\n4-Dar de baja un producto\n5-Salir")
         }
         console.log(nombreDB)
+        
     }
     console.log(nombreDB)
 }

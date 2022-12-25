@@ -10,4 +10,22 @@ class Producto {
     }
 
     //METODOS
+
+    aumentarStock(cantidad){
+        this.stock += cantidad;
+    }
+
+    disminuirStock(cantidad){
+        if(this.stock > cantidad){
+            this.stock -= cantidad;
+        }else{alert("No hay suficiente stock disponible")}
+    }
+
+    cambiarUbicacion(nuevaUbicacion){
+        this.ubicacion = nuevaUbicacion
+    }
 }
+
+
+
+

@@ -1,5 +1,5 @@
 
-//CREAR UNA LISTA PARA CONTENER LOS OBJETOS CREADOS
+//CREAR UNA LISTA PARA CONTENER LOS OBJETOS, PUEDE SER UNA LISTA VACIA
 
 let data = [
     {codigo: '0001', nombre: 'MARTILLO', stock: 20, ubicacion: 'A120302'},
@@ -9,7 +9,7 @@ let data = [
 
 //INGRESAR COMO PARAMETRO EL NOMBRE DE LA LISTA CON LA QUE VAMOS A TRABAJAR 
 
-inventario(data)
+//inventario(data)
 
 
 
